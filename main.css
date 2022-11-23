@@ -1,0 +1,80 @@
+html{scroll-behavior: smooth;}
+body{padding-top: 56px;}
+.navbar{ background:black;}
+.nav-link{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.barvan{
+    background: black;
+	color: #f4f4f4;
+	border: none;
+    border-radius: 5px;
+	cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.barvan:hover{
+    padding: 10px;
+	border: none;
+    color: black;
+    border-radius: 5px;
+    background: #f4f4f4;
+    text-decoration: none;
+}
+.nav-link{
+	color: white;
+    margin-right: 1em ;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff;}
+.asi {
+    background: greenyellow;
+}
+.btn-primary {
+    background-color: #c60063;
+    border-color: #c60063;
+}
+.wrwpper{
+    display: flex;
+    justify-content: center;
+}
+.baba{
+    background-color: #eb607a;
+}
+.cook{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.kecil{
+    padding: 0px 100px;
+    color: #fff;
+}
+.neer{
+    color: #fff;
+}
+#sejarah{
+    background-image: url(image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 992px) {
+    .kecil{
+        padding: 0px 65px;
+    }
+}
+@media (max-width: 720px) {
+    .kecil{
+        padding: 0px 25px;
+    }
+}
